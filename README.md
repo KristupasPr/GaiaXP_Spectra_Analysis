@@ -14,6 +14,12 @@ Building Blocks/
 
 ---
 
+Methods (Binary)/
+
+Kai kurie metodai binarinių/singuliarių sistemų klasifikacijai. Dar neištobulinti, tik bendrai idėjai. Input'as tik koef. iš `xpcoeff_feature_build_binary.ipynb`
+
+---
+
 - gaia_api_spectra.ipynb: duomenų gavimas per Gaia@AIP TAP API (SQL užklausos / SJS pagal source_id) ir XP spektrų kalibravimas bei braižymas su gaiaxpy;
 
 - cluster_analysis.ipynb: atviro spiečiau erdvinės struktūros analizė – tarpžvaigždinių atstumų metrikos ir PCA formos analizė pagal Viscasillas Vázquez et al. (2024);
