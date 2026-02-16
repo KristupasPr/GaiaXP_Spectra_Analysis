@@ -6,6 +6,10 @@ Building Blocks/
 
   - xpcoeff_feature_build_binary.ipynb: duomenų paruošimas binarinei klasifikacijai;
 
+  - xpcoeff_feature_derivative.ipynb: spektrų išvestinių bazės koeficientų gavimas ir įtraukimas į dataset;
+
+  - xpcoeff_feature_errors_snr.ipynb: paklaidų ir snr koeficientų gavimas ir įtraukimas į dataset;
+
   (testuota su python 3.9.6 ir 3.11.9 versijomis (win, mac))
 
 ---
