@@ -20,7 +20,11 @@ Kai kurie metodai binarinių/singuliarių sistemų klasifikacijai. Dar neištobu
 
 ---
 
-- gaia_api_spectra.ipynb: duomenų gavimas per Gaia@AIP TAP API (SQL užklausos / SJS pagal source_id) ir XP spektrų kalibravimas bei braižymas su gaiaxpy;
+Coordinates matching/
 
-- cluster_analysis.ipynb: atviro spiečiau erdvinės struktūros analizė – tarpžvaigždinių atstumų metrikos ir PCA formos analizė pagal Viscasillas Vázquez et al. (2024);
+  - __init__.py: paketo inicializacija, leidžia naudoti astroflow kaip Python modulį;
+  - gaia_tap.py: funkcijos užklausoms į Gaia DR3 TAP servisą (coordinates cross-matching);
+  - cli_tap.py: komandų eilutės sąsaja darbui su gaia_tap moduliu (užklausų vykdymas iš terminalo).
+
+  analizė pagal Viscasillas Vázquez et al. (2024);
 
