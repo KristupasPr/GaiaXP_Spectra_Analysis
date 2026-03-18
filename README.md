@@ -20,6 +20,11 @@ Kai kurie metodai binarinių/singuliarių sistemų klasifikacijai. Dar neištobu
 
 ---
 
+Truncation experiment/
+
+CNN, RF, SVM ir LogReg metodų koeficientų mažinimo analizės skriptai
+
+---
 Coordinates matching/
 
   - __init__.py: paketo inicializacija, leidžia naudoti astroflow kaip Python modulį;
