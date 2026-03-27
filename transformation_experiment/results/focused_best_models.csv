@@ -1,0 +1,5 @@
+Classifier,Representation,n_coeffs,ROC-AUC,Sensitivity,Precision,F1,Beats Art. Sens?,Beats Art. Prec?,Best Params
+RandomForest,og_xp_110,110,0.9419 ± 0.0014,0.8423 ± 0.0082,0.8163 ± 0.0121,0.8283 ± 0.0036,no,no,"{'n_estimators': 500, 'max_depth': 20, 'min_samples_leaf': 5, 'max_features': 0.3, 'class_weight': 'balanced'}"
+LogisticRegression,chebyshev_10_L2,10,0.9203 ± 0.0015,0.8330 ± 0.0033,0.8113 ± 0.0123,0.8215 ± 0.0064,no,no,"{'C': 4.689400963537685, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'saga'}"
+XGBoost,og_xp_110,110,0.9451 ± 0.0027,0.8400 ± 0.0080,0.8011 ± 0.0114,0.8191 ± 0.0061,no,no,"{'n_estimators': 300, 'max_depth': 10, 'learning_rate': 0.01510641935314371, 'subsample': 0.6073244081988679, 'colsample_bytree': 0.9837182417326966, 'scale_pos_weight': 4}"
+SVM_RBF,chebyshev_5_L2,5,0.9274 ± 0.0016,0.8335 ± 0.0049,0.7915 ± 0.0105,0.8112 ± 0.0056,no,no,"{'C': 15.670963320055066, 'gamma': 0.019269361735583676, 'class_weight': 'balanced'}"

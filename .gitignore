@@ -1,5 +1,10 @@
+.DS_Store
 .env
 .venv/
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
+
+# Saved ML models (large binary files; full dirs — do not commit trained artifacts)
+transformation_experiment/models/
+transformation_experiment/models_focused/
