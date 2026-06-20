@@ -4,6 +4,11 @@
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
+.gaia_aip_token
+
+# GaiaAIP example outputs and local caches.
+GaiaAIP/out_gaiaaip_access_example/
+GaiaAIP/out_data/
 
 # Saved ML models (large binary files; full dirs — do not commit trained artifacts)
 transformation_experiment/models/
