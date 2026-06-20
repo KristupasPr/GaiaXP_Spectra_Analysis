@@ -5,16 +5,14 @@
 
 Truncation Experiment/
 
-Pilnas detalus aprašas pateiktas "Wiki" skyrelyje.
+Koeficientų mažinimo analizė. Pilnas detalus aprašas pateiktas "Wiki" skyrelyje.
 
 ---
 
 GaiaAIP/
 
-  - 00_gaia_aip_access_example.ipynb: minimal authenticated Gaia@AIP TAP/SJS access example for XP continuous mean-spectrum coefficients;
-  - 01_build_gaia_xp_coefficient_dataset.ipynb: example construction of the normalized Gaia DR3 XP coefficient CSV used by downstream classification experiments;
-
-  (testuota su python 3.9.6 ir 3.11.9 versijomis (win, mac))
+  - 00_gaia_aip_access_example.ipynb: minimalus autentifikuotos prieigos prie Gaia@AIP TAP/SJS pavyzdys;
+  - 01_build_gaia_xp_coefficient_dataset.ipynb: Gaia DR3 XP koeficientų CSV failo, naudojamo tolimesniuose klasifikacijos eksperimentuose, sudarymo pavyzdys;
 
 ---
 
