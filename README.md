@@ -1,30 +1,23 @@
 # Gaia-Spectrum-Analysis
 
-Building Blocks/
+
+---
+
+Truncation Experiment/
+
+Pilnas detalus aprašas pateiktas "Wiki" skyrelyje.
+
+---
+
+GaiaAIP/
 
   - gaia_aip_pavyzdinis.ipynb: šablonas sąsajai su Gaia AIP;
-
-  - xpcoeff_feature_build_binary.ipynb: duomenų paruošimas binarinei klasifikacijai;
-
-  - xpcoeff_feature_derivative.ipynb: spektrų išvestinių bazės koeficientų gavimas ir įtraukimas į dataset;
-
-  - xpcoeff_feature_errors_snr.ipynb: paklaidų ir snr koeficientų gavimas ir įtraukimas į dataset;
 
   (testuota su python 3.9.6 ir 3.11.9 versijomis (win, mac))
 
 ---
 
-Methods (Binary)/
 
-Kai kurie metodai binarinių/singuliarių sistemų klasifikacijai. Dar neištobulinti, tik bendrai idėjai. Input'as tik koef. iš `xpcoeff_feature_build_binary.ipynb`
-
----
-
-Truncation experiment/
-
-CNN, RF, SVM ir LogReg metodų koeficientų mažinimo analizės skriptai
-
----
 Coordinates matching/
 
   - __init__.py: paketo inicializacija, leidžia naudoti astroflow kaip Python modulį;
