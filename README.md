@@ -1,4 +1,4 @@
-# Gaia-Spectrum-Analysis
+# Gaia-Spectra-Analysis
 
 
 ---
@@ -11,7 +11,7 @@ Koeficientų mažinimo analizė. Pilnas detalus aprašas pateiktas "Wiki" skyrel
 
 Feature_Set_Expansion/
 
-Gaia XP požymių rinkinio išplėtimo analizė. Aplanke yra bazinio `c110` duomenų rinkinio sudarymas, išvestinių, paklaidų ir SNR požymių pridėjimas, bei SVM, RF, logistinės regresijos ir CNN modelių palyginimo sąsiuviniai.
+Gaia XP požymių rinkinio praplėtimo analizė. Nagrinėjama bazinio `c110` duomenų rinkinio praplėtimas išvestinėmis, koef. paklaidomis ir koef. SNR. Testuojami SVM, RF, logistinės regresijos ir CNN modeliai. Pilnas detalus aprašas pateiktas "Wiki" skyrelyje.
 
 ---
 
