@@ -9,6 +9,12 @@ Koeficientų mažinimo analizė. Pilnas detalus aprašas pateiktas "Wiki" skyrel
 
 ---
 
+Feature_Set_Expansion/
+
+Gaia XP požymių rinkinio išplėtimo analizė. Aplanke yra bazinio `c110` duomenų rinkinio sudarymas, išvestinių, paklaidų ir SNR požymių pridėjimas, bei SVM, RF, logistinės regresijos ir CNN modelių palyginimo sąsiuviniai.
+
+---
+
 GaiaAIP/
 
   - 00_gaia_aip_access_example.ipynb: minimalus autentifikuotos prieigos prie Gaia@AIP TAP/SJS pavyzdys;

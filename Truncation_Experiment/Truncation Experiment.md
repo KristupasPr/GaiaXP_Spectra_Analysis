@@ -13,27 +13,28 @@ The workflow is organized into three stages:
 ```text
 README.md
 requirements.txt
-01_build_gaia_xp_coefficient_dataset.ipynb
 
-preparations/
-  VOSA_labels_training.csv
+Truncation_Experiment/
+  01_build_gaia_xp_coefficient_dataset.ipynb
+  preparations/
+    VOSA_labels_training.csv
 
-k55_experiments/
-  <model>_k55_truncation.ipynb
-  <model>_k55_truncation_out/
-    truncation_<model>_raw.*
-    truncation_<model>_summary_byK*.csv
+  k55_experiments/
+    <model>_k55_truncation.ipynb
+    <model>_k55_truncation_out/
+      truncation_<model>_raw.*
+      truncation_<model>_summary_byK*.csv
 
-55x55_experiments/
-  combined_55x55_visuals.ipynb
-  <model>_55x55_truncation.ipynb
-  <model>_55x55_truncation_out/
-    truncation_<model>_bp_rp_grid_raw.parquet
-    truncation_<model>_bp_rp_grid_summary_by_pair.*
+  55x55_experiments/
+    combined_55x55_visuals.ipynb
+    <model>_55x55_truncation.ipynb
+    <model>_55x55_truncation_out/
+      truncation_<model>_bp_rp_grid_raw.parquet
+      truncation_<model>_bp_rp_grid_summary_by_pair.*
 
-out_data/
-  gaia_dr3_xp_c110_l2_binary.csv
-  gaia_dr3_xp_c110_binary.npz
+  out_data/
+    gaia_dr3_xp_c110_l2_binary.csv
+    gaia_dr3_xp_c110_binary.npz
 ```
 
 The `k55` notebooks cover `cnn`, `knn`, `lr`, `rf`, and `svm`. The `55x55` notebooks cover those models plus `lda` and `lightgbm`. Precomputed experiment tables are stored next to their corresponding notebooks in `*_truncation_out/` folders.
@@ -106,7 +107,7 @@ The notebook `combined_55x55_visuals.ipynb` builds combined heatmap, contour, su
 
 ## Running Order
 
-Install the Python requirements before running the notebooks:
+From the repository root, install the Python requirements before running the notebooks:
 
 ```bash
 pip install -r requirements.txt

@@ -1,8 +1,9 @@
 .DS_Store
 .env
+*.env
 .venv/
 __pycache__/
-*.pyc
+*.py[cod]
 .ipynb_checkpoints/
 .gaia_aip_token
 
@@ -10,5 +11,26 @@ __pycache__/
 GaiaAIP/out_gaiaaip_access_example/
 GaiaAIP/out_data/
 
+# Runtime shards and progress files produced by long sweeps.
+**/runs/
+**/runs_bp_rp_grid/
+**/analysis_report/
+**/HEARTBEAT.json
+**/LAST_EVENT.txt
+**/RUNNING_MANIFEST.json
+
+# Large model/checkpoint artifacts are not part of the curated handoff package.
+**/models/
+**/checkpoints/
+*.keras
+*.h5
+
+# Full 55x55 raw CSV exports are larger than GitHub's regular file-size limit.
+**/55x55_experiments/*_55x55_truncation_out/*_bp_rp_grid_raw.csv
+
 transformation_experiment/models/
 transformation_experiment/models_focused/
+
+# Feature-set expansion generated analysis outputs.
+Feature_Set_Expansion/*_feature_set_out/
+Feature_Set_Expansion/**/.ipynb_checkpoints/
